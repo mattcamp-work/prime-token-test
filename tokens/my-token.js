@@ -1,0 +1,16 @@
+{
+	colors:{
+		{
+			name:"red-100",
+			value:"#ff0000"
+		},
+		{
+			name:"green-100",
+			value:"#00ff00"
+		},
+		{
+			name:"blue-100",
+			value:"#0000ff"
+		}
+	}
+}
