@@ -10706,15 +10706,15 @@
         "type": "color"
       },
       "secondaryColor": {
-        "value": "{color_ramps.gray.005}",
+        "value": "{color_ramps.warm_gray.005}",
         "type": "color"
       },
       "successColor": {
-        "value": "{color_ramps.lime.060}",
+        "value": "{color_ramps.lime.050}",
         "type": "color"
       },
       "warningColor": {
-        "value": "{color_ramps.orange.050}",
+        "value": "{color_ramps.orange.040}",
         "type": "color"
       },
       "dangerColor": {
@@ -10722,11 +10722,11 @@
         "type": "color"
       },
       "infoColor": {
-        "value": "{color_ramps.blue.060}",
+        "value": "{color_ramps.blue.050}",
         "type": "color"
       },
       "helpColor": {
-        "value": "{color_ramps.purple.060}",
+        "value": "{color_ramps.purple.050}",
         "type": "color"
       },
       "actionColor": {
