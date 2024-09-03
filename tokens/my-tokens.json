@@ -10658,6 +10658,98 @@
     }
   },
   "fm-light": {
+    "fm_brand_center": {
+      "fm_navy": {
+        "value": "#05314D",
+        "type": "color"
+      },
+      "fm_blue": {
+        "value": "#085280",
+        "type": "color"
+      },
+      "fm_gray": {
+        "value": "#EDEBE9",
+        "type": "color"
+      },
+      "fm_white": {
+        "value": "#fff",
+        "type": "color"
+      },
+      "fm_black": {
+        "value": "#121212",
+        "type": "color"
+      },
+      "fm_orange": {
+        "value": "#C55422",
+        "type": "color"
+      },
+      "fm_teal": {
+        "value": "#238196",
+        "type": "color"
+      },
+      "fm_yellow": {
+        "value": "#FFB400",
+        "type": "color"
+      },
+      "fm_green": {
+        "value": "#2C6937",
+        "type": "color"
+      },
+      "fm_magenta": {
+        "value": "#911A5B",
+        "type": "color"
+      }
+    },
+    "seed_tokens": {
+      "primaryColor": {
+        "value": "{fm_brand_center.fm_blue}",
+        "type": "color"
+      },
+      "secondaryColor": {
+        "value": "{color_ramps.gray.005}",
+        "type": "color"
+      },
+      "successColor": {
+        "value": "{color_ramps.lime.060}",
+        "type": "color"
+      },
+      "warningColor": {
+        "value": "{color_ramps.orange.050}",
+        "type": "color"
+      },
+      "dangerColor": {
+        "value": "{color_ramps.red.060}",
+        "type": "color"
+      },
+      "infoColor": {
+        "value": "{color_ramps.blue.060}",
+        "type": "color"
+      },
+      "helpColor": {
+        "value": "{color_ramps.purple.060}",
+        "type": "color"
+      },
+      "actionColor": {
+        "value": "{color_ramps.blue.050}",
+        "type": "color"
+      },
+      "actionColorAlt": {
+        "value": "{color_ramps.lime.050}",
+        "type": "color"
+      },
+      "bodyBg": {
+        "value": "{fm_brand_center.fm_gray}",
+        "type": "color"
+      },
+      "floor": {
+        "value": "{fm_brand_center.fm_white}",
+        "type": "color"
+      },
+      "textColor": {
+        "value": "{fm_brand_center.fm_black}",
+        "type": "color"
+      }
+    },
     "color_ramps": {
       "red": {
         "001": {
@@ -12393,7 +12485,7 @@
     },
     "button": {
       "background": {
-        "value": "{color_ramps.navy.060}",
+        "value": "{seed_tokens.primaryColor}",
         "type": "color"
       },
       "color": {
@@ -12406,7 +12498,7 @@
       },
       "hover": {
         "background": {
-          "value": "{color_ramps.navy.050}",
+          "value": "#2563eb",
           "type": "color"
         },
         "color": {
@@ -12414,7 +12506,7 @@
           "type": "color"
         },
         "borderColor": {
-          "value": "{button.hover.background}",
+          "value": "#2563eb",
           "type": "color"
         },
         "border": {
@@ -12476,7 +12568,7 @@
       },
       "secondary": {
         "background": {
-          "value": "#64748b",
+          "value": "{seed_tokens.secondaryColor}",
           "type": "color"
         },
         "color": {
@@ -12484,7 +12576,7 @@
           "type": "color"
         },
         "borderColor": {
-          "value": "#64748b",
+          "value": "{button.secondary.background}",
           "type": "color"
         },
         "hover": {
@@ -12560,7 +12652,7 @@
       },
       "info": {
         "background": {
-          "value": "#0ea5e9",
+          "value": "{seed_tokens.infoColor}",
           "type": "color"
         },
         "color": {
@@ -12568,7 +12660,7 @@
           "type": "color"
         },
         "borderColor": {
-          "value": "#0ea5e9",
+          "value": "{button.info.background}",
           "type": "color"
         },
         "hover": {
@@ -12644,7 +12736,7 @@
       },
       "success": {
         "background": {
-          "value": "#22c55e",
+          "value": "{seed_tokens.successColor}",
           "type": "color"
         },
         "color": {
@@ -12652,7 +12744,7 @@
           "type": "color"
         },
         "borderColor": {
-          "value": "#22c55e",
+          "value": "{button.success.background}",
           "type": "color"
         },
         "hover": {
@@ -12728,7 +12820,7 @@
       },
       "warning": {
         "background": {
-          "value": "#f97316",
+          "value": "{seed_tokens.warningColor}",
           "type": "color"
         },
         "color": {
@@ -12736,7 +12828,7 @@
           "type": "color"
         },
         "borderColor": {
-          "value": "#f97316",
+          "value": "{button.warning.background}",
           "type": "color"
         },
         "hover": {
@@ -12812,7 +12904,7 @@
       },
       "help": {
         "background": {
-          "value": "#a855f7",
+          "value": "{seed_tokens.helpColor}",
           "type": "color"
         },
         "color": {
@@ -12820,7 +12912,7 @@
           "type": "color"
         },
         "borderColor": {
-          "value": "#a855f7",
+          "value": "{button.help.background}",
           "type": "color"
         },
         "hover": {
@@ -12896,7 +12988,7 @@
       },
       "danger": {
         "background": {
-          "value": "#ef4444",
+          "value": "{seed_tokens.dangerColor}",
           "type": "color"
         },
         "color": {
@@ -12904,7 +12996,7 @@
           "type": "color"
         },
         "borderColor": {
-          "value": "#ef4444",
+          "value": "{button.danger.background}",
           "type": "color"
         },
         "hover": {
