@@ -665,7 +665,7 @@
         "description": "trying to update this"
       },
       "secondaryColor": {
-        "value": "{color_ramps.gray.005}",
+        "value": "{fm_brand_center.fm_white}",
         "type": "color"
       },
       "successColor": {
