@@ -660,7 +660,7 @@
     },
     "seed_tokens": {
       "primaryColor": {
-        "value": "{legacy_color_ramps.navy.060}",
+        "value": "#1C6FA3",
         "type": "color",
         "description": "trying to update this"
       },
