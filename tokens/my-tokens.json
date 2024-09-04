@@ -660,7 +660,7 @@
     },
     "seed_tokens": {
       "primaryColor": {
-        "value": "{fm_brand_center.fm_blue}",
+        "value": "{legacy_color_ramps.navy.070}",
         "type": "color"
       },
       "secondaryColor": {
