@@ -661,7 +661,8 @@
     "seed_tokens": {
       "primaryColor": {
         "value": "{legacy_color_ramps.navy.060}",
-        "type": "color"
+        "type": "color",
+        "description": "trying to update this"
       },
       "secondaryColor": {
         "value": "{color_ramps.gray.005}",
