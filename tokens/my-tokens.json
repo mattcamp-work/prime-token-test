@@ -660,7 +660,7 @@
     },
     "seed_tokens": {
       "primaryColor": {
-        "value": "{legacy_color_ramps.navy.070}",
+        "value": "{color_ramps.navy.060}",
         "type": "color"
       },
       "secondaryColor": {
@@ -668,11 +668,11 @@
         "type": "color"
       },
       "successColor": {
-        "value": "{color_ramps.lime.060}",
+        "value": "{legacy_color_ramps.lime.050}",
         "type": "color"
       },
       "warningColor": {
-        "value": "{color_ramps.orange.050}",
+        "value": "{legacy_color_ramps.orange.050}",
         "type": "color"
       },
       "dangerColor": {
@@ -680,11 +680,11 @@
         "type": "color"
       },
       "infoColor": {
-        "value": "{color_ramps.blue.060}",
+        "value": "{legacy_color_ramps.blue.050}",
         "type": "color"
       },
       "helpColor": {
-        "value": "{color_ramps.purple.060}",
+        "value": "{legacy_color_ramps.purple.060}",
         "type": "color"
       },
       "actionColor": {
@@ -692,7 +692,7 @@
         "type": "color"
       },
       "actionColorAlt": {
-        "value": "{color_ramps.lime.050}",
+        "value": "{legacy_color_ramps.lime.050}",
         "type": "color"
       },
       "bodyBg": {
