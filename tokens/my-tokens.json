@@ -659,13 +659,12 @@
       }
     },
     "seed_tokens": {
-      "primaryColor": {
-        "value": "#1C6FA3",
-        "type": "color",
-        "description": "trying to update this"
-      },
       "secondaryColor": {
         "value": "{fm_brand_center.fm_white}",
+        "type": "color"
+      },
+      "primaryColor": {
+        "value": "{legacy_color_ramps.navy.060}",
         "type": "color"
       },
       "successColor": {
@@ -706,6 +705,10 @@
       },
       "textColor": {
         "value": "{fm_brand_center.fm_black}",
+        "type": "color"
+      },
+      "primaryColor2": {
+        "value": "{legacy_color_ramps.navy.060}",
         "type": "color"
       }
     },
@@ -2444,7 +2447,7 @@
     },
     "button": {
       "background": {
-        "value": "{seed_tokens.primaryColor}",
+        "value": "{seed_tokens.primaryColor2}",
         "type": "color"
       },
       "color": {
