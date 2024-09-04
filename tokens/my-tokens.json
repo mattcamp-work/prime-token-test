@@ -10702,7 +10702,7 @@
     },
     "seed_tokens": {
       "primaryColor": {
-        "value": "{fm_brand_center.fm_blue}",
+        "value": "{color_ramps.navy.060}",
         "type": "color"
       },
       "secondaryColor": {
@@ -10710,7 +10710,7 @@
         "type": "color"
       },
       "successColor": {
-        "value": "{color_ramps.lime.050}",
+        "value": "{color_ramps.lime.060}",
         "type": "color"
       },
       "warningColor": {
@@ -11984,7 +11984,7 @@
     },
     "global": {
       "textColor": {
-        "value": "#4b5563",
+        "value": "{seed_tokens.textColor}",
         "type": "color"
       },
       "textSecondaryColor": {
@@ -12572,11 +12572,11 @@
           "type": "color"
         },
         "color": {
-          "value": "#ffffff",
+          "value": "{seed_tokens.textColor}",
           "type": "color"
         },
         "borderColor": {
-          "value": "{button.secondary.background}",
+          "value": "{surface.600}",
           "type": "color"
         },
         "hover": {
